@@ -1,4 +1,5 @@
-# react-render-counter
+[![NPM](https://img.shields.io/npm/v/@livestd/react-control-group.svg)](https://www.npmjs.com/package/@livestd/react-control-group)
+
 Basic react control group component (like a checkboxes or radio inputs).
 Can be used for single or multiple selection
 ## Installation
@@ -8,6 +9,7 @@ npm install --save @livestd/react-control-group
 
 ## types
 
+```js
 interface ControlRequiredProps<T> {
   active?: boolean;
   children?: T;
@@ -16,6 +18,7 @@ interface ControlRequiredProps<T> {
 type valueKey = string | number | symbol;
 
 interface Props<K extends valueKey, T, P extends ControlRequiredProps<T>>
+```
 
 ## Props
 
