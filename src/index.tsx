@@ -88,7 +88,7 @@ const ControlGroup = <K extends valueKey, T, P extends ControlRequiredProps<T>>(
           <Component
             {...({
               ...componentProps,
-              active: !!activeState.find(v => v === k),
+              active: activeState.includes(k),
               children: v,
             } as P)}
           />
