@@ -1,0 +1,34 @@
+{
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "name": "@livestd/react-control-group",
+  "version": "1.0.0",
+  "description": "Basic react control group component (like a checkboxes or radio inputs group)",
+  "main": "build/ndex.js",
+  "keywords": [
+    "react",
+    "react-components",
+    "control-group"
+  ],
+  "author": "Dmitry Rtishchev @livestd",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/livestd/react-control-group.git"
+  },
+  "homepage": "https://github.com/livestd/react-control-group#readme",
+  "bugs": {
+    "url": "https://github.com/livestd/react-control-group/issues"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.9.0",
+    "typescript": "^3.6.3"
+  }
+}
